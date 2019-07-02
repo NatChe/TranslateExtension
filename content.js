@@ -25,7 +25,7 @@ const getSelectedText = () => {
 const createTooltip = (event, text) => {
     const element = document.createElement('article');
     const content = document.createTextNode(text);
-    const style = 'position:absolute;top:' + (event.pageY - 40) + 'px;left:' + event.pageX + 'px; background:blue;color:white;z-index:100000;';
+    const style = 'position:absolute;top:' + (event.pageY - 40) + 'px;left:' + (event.pageX - 40) + 'px; background:rgba(20,7,35,0.8);color:#cee2ba;z-index:100000; padding:5px 10px;font-size:13px;font-family:Helvetica,sans-serif;letter-spacing:.5px;border-radius:2px;';
     element.setAttribute('style', style);
     element.appendChild(content);
     document.body.appendChild(element);
