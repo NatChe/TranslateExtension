@@ -1,7 +1,7 @@
  {
-    "name": "Get word meaning Extension",
+    "name": "DicoNat",
     "version": "0.1",
-    "description": "Get a single a word translation in order to improve your vocabulary while learning a foreign language",
+    "description": "Get a single word translation in order to improve your vocabulary while learning a foreign language, just double click on a word",
     "manifest_version": 2,
     "permissions": ["storage"],
     "icons": {
@@ -12,7 +12,7 @@
     },
     "browser_action": {
       "default_popup": "browser/popup.html",
-      "default_title": "Double click on the word you want to translate",
+      "default_title": "DicoNat",
       "default_icon": {
         "16": "assets/images/logo_ext_16.png",
         "32": "assets/images/logo_ext_32.png",
