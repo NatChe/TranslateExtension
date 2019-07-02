@@ -1,0 +1,14 @@
+1. Popup :
+    - Create options lists with 'from to' languages
+    - Change icon
+
+2. Content
+    - Enable mouse selection of a text along with double click
+    - Add preventDefault on links to disable redirection
+
+3. Code quality
+    - Add tests
+    - Refactor, add more checks and use cases
+
+4. Tooltip
+    - Add close button
